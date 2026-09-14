@@ -1,0 +1,22 @@
+# Local tools, generated binaries and package output
+.tools/
+dist/
+release/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.tmp
+
+# Test data and generated captures
+tests/test-data/
+tests/ui-data/
+tests/screenshots/
+
+# Personal workspace / agent settings
+.codex/
+.agents/
+.openai/
+
+# Root reference images are copied selectively into docs/images
+/*.png
