@@ -1,28 +1,34 @@
-# v1.0.0 · 小猪举铁钟（直角版）
+# Pig O'Clock Release Notes
 
-首个发布版本：专注时小猪举铁，休息时小猪盖被，配合每日任务清单完成小目标。
+## v0.1.0 - Initial Release (2026-09-15)
 
-## 包含功能
+### 🎉 Initial Release
 
-- 专注、短休息和长休息，默认 25 / 5 / 15 分钟，支持分别设置 1–180 分钟。
-- 开始、暂停、继续和重置；暂停时同步停止动画。
-- 到点提示和可关闭的提示音；下一阶段等待手动开始。
-- 每日任务添加、勾选、删除和日期浏览，自动保存与备份。
-- 窗口置顶、托盘恢复及单实例检查。
-- 直角按钮与任务面板、实色背景应用图标。
+This is the first official release of **Pig O'Clock**, a C# project.
 
-## 下载
+### 📋 What's Included
 
-- `PigLiftClock.exe`：直接运行。
-- `PigLiftClock-v1.0.0-windows.zip`：EXE、中文快速说明和 SHA-256 校验文件。
-- `SHA256SUMS.txt`：EXE 与 ZIP 的 SHA-256 校验值。
+- Initial project setup and structure
+- Core functionality foundation
+- Basic repository configuration
 
-建议使用 Windows 10 / 11，需要 .NET Framework 4.x。无需 Python、Node.js 或安装向导。
+### 🚀 Getting Started
 
-## 数据与使用注意
+1. Clone the repository
+2. Open the project in your preferred C# IDE
+3. Build and run the project
 
-数据保存在 `%LOCALAPPDATA%\PigLiftClock`。退出旧版本后运行新版会读取已有任务。关闭窗口会退出；退出后不保留剩余计时，程序未运行时不会提醒。每完成 4 次专注后准备长休息。
+### 📝 Notes
 
-## 验证
+- This is an early-stage release
+- More features coming soon
+- Feedback and contributions are welcome!
 
-已在当前 Windows 环境验证核心计时、任务持久化、备份恢复、实际界面交互、到点提示和直角布局。未完成跨系统、跨 DPI 的完整兼容性测试。
+### 🔗 Links
+
+- [GitHub Repository](https://github.com/airt56/pig-oclock)
+- [Commit History](https://github.com/airt56/pig-oclock/commits)
+
+---
+
+*Thank you for using Pig O'Clock!*
